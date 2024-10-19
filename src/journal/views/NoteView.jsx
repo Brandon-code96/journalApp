@@ -72,7 +72,7 @@ export const NoteView = () => {
           type="file"
           multiple
           ref={ fileInputRef }
-          onClick={ onFileInputChange }
+          onChange={ onFileInputChange }
           style={{ display: 'none'}}
         />
 
